@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    }
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+h1, h2{
+    font-weight: 700;
+    text-shadow: 1.5px 0 #000000;
+    color: white;
+}
+
+h2{
+    font-size: x-large;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.6);
+
+}
+
+.lexend{
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inter{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"slnt" 0;
+}
+
+#Card{
+    background-color:  hsl(244, 38%, 16%);
+}
+
+#Imageholder{
+    background-image: url("./assets/images/image-header-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Violet{
+    font-weight: 700;
+    text-shadow: 1.5px 0 #000000;
+    color:hsl(277, 64%, 61%);
+}
+
+@media screen and (min-width: 640px) {
+    #Imageholder{
+        background-image: url("./assets/images/image-header-desktop.jpg");
+    }
+  }
