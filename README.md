@@ -21,7 +21,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Challenge URL:  [Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62)
-- Live Site URL: [Live URL]()
+- Live Site URL: [Live URL](https://fg-abc.github.io/FEM-StatsPreviewCard/)
 
 ## My process
 I built this project with React and Tailwind CSS.
